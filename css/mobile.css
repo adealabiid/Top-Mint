@@ -1,0 +1,142 @@
+@media screen and (max-width: 960px) {
+	.caption {
+		/* margin-left: 30% !important; */
+	}
+
+	.green-card {
+		margin-right: 30% !important;
+		font-size: 1rem !important;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	#caption {
+		height: 15%;
+	}
+
+	#navbar {
+		display: none !important;
+	}
+
+	#navbar-mobile {
+		display: grid !important;
+		grid-template-columns: 6fr 2fr;
+		grid-gap: 1fr;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.container {
+		width: 90% !important;
+	}
+
+	.caption {
+		margin-left: 20% !important;
+	}
+
+	.green-card {
+		width: 50% !important;
+		top: 30% !important;
+		font-size: 1rem !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#caption {
+		margin-left: 5% !important;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	#caption {
+		margin-left: 2%;
+	}
+
+	#menu {
+		grid-template-columns: 1fr !important;
+		grid-gap: 50px !important;
+		margin: 50px auto !important;
+	}
+
+	.container {
+		width: 70% !important;
+	}
+
+	#menu .card:nth-child(3)>img {
+		bottom: -30px !important;
+	}
+
+	.caption {
+		position: relative;
+		top: 30%;
+		margin-top: 10%;
+		height: 150px !important;
+		margin: 0 auto !important;
+	}
+
+	.wrapper {
+		grid-template-columns: 1fr !important;
+	}
+
+	.green-card {
+		width: 90% !important;
+		top: 35% !important;
+		font-size: 0.8rem !important;
+	}
+
+	.videos iframe {
+		height: 200px;
+		width: 320px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	#contact .container {
+		grid-template-columns: 1fr !important;
+	}
+
+	#contact .container>.form {
+		display: none;
+	}
+
+	#contact .block {
+		margin-top: 1.5rem;
+		margin-left: 0% !important;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	#caption {
+		margin-left: 10% !important;
+	}
+
+	#caption {
+		height: 50px !important;
+		top: 20% !important;
+	}
+
+	#hero-bg {
+		height: 630px !important;
+		width: 100% !important;
+		background: url(../images/Top_Mint_Home_Header.png) no-repeat !important;
+		background-position: 71% 111% !important;
+		background-size: cover !important;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.videos iframe {
+		height: 150px;
+		width: 250px;
+	}
+
+	#caption {
+		height: 50px !important;
+		top: 20% !important;
+	}
+
+	#menu .card>img {
+		bottom: -40px !important;
+		height: 3rem !important;
+	}
+}
